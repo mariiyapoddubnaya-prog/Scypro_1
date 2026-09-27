@@ -1,14 +1,16 @@
-# Функция принимает параметр и печатает его
-# без перехода на новую строку (end="")
 def print_digit(num):
     print(num, end="")
 
-# Номер для вывода (ровно 11 цифр)
-phone_number = "88005553535"
 
-# Вызываем функцию 11 раз (по одному разу для каждой цифры)
-for digit in phone_number:
-    print_digit(digit)
-
-# Добавляем перенос строки в конце для чистоты вывода в консоли
+print_digit("8")
+print_digit("8")
+print_digit("0")
+print_digit("0")
+print_digit("5")
+print_digit("5")
+print_digit("5")
+print_digit("3")
+print_digit("5")
+print_digit("3")
+print_digit("5")
 print()
