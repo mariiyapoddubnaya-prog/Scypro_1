@@ -3,7 +3,6 @@
 def print_digit(num):
     print(num, end="")
 
-
 # Номер для вывода (ровно 11 цифр)
 phone_number = "88005553535"
 
