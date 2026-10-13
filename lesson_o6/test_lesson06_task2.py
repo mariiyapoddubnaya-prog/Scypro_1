@@ -10,9 +10,9 @@ def test_session_storage_auth():
 
         # 2. Установите cookie пользователя 1 (ЗАМЕНИТЕ ДАННЫЕ НА РЕАЛЬНЫЕ!)
         cookie_user1 = {
-            "name": "_gitflic_session",  # Проверьте реальное имя в браузере
-            "value": "ВСТАВЬТЕ_СЮДА_РЕАЛЬНОЕ_ЗНАЧЕНИЕ_COOKIE_1",
-            "domain": ".gitflic.ru"
+            "name": "SESSION",  # Проверьте реальное имя в браузере
+            "value": "MDYyYWM0NmUtNzBmNy00NWQ0LTg3YzktYzYyNDdhMGY4ZWU5",
+            "domain": "gitflic.ru"
         }
         driver.add_cookie(cookie_user1)
 
@@ -29,9 +29,9 @@ def test_session_storage_auth():
 
         # 6. Установите cookie пользователя 2 (ЗАМЕНИТЕ ДАННЫЕ НА РЕАЛЬНЫЕ!)
         cookie_user2 = {
-            "name": "_gitflic_session",  # Проверьте реальное имя в браузере
-            "value": "ВСТАВЬТЕ_СЮДА_РЕАЛЬНОЕ_ЗНАЧЕНИЕ_COOKIE_2",
-            "domain": ".gitflic.ru"
+            "name": "SESSION",  # Проверьте реальное имя в браузере
+            "value": "OGIyZWJjYWYtMGY1OC00YzEzLTk3NDMtYjFmNDljMGVmZTAz",
+            "domain": "gitflic.ru"
         }
         driver.add_cookie(cookie_user2)
 
