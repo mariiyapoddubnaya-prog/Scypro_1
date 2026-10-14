@@ -52,5 +52,5 @@ def test_session_storage_auth():
 
 
 # ЭТА СТРОКА ЗАСТАВЛЯЕТ КОД РАБОТАТЬ ПРИ ОБЫЧНОМ ЗАПУСКЕ В PYCHARM
-if __name__ == "__main__":
-    test_session_storage_auth()
+#if __name__ == "__main__":
+#    test_session_storage_auth()
